@@ -1,0 +1,16 @@
+package PullRequest
+
+type AllPr struct {
+	Items []Items
+}
+
+type Items struct {
+	Title        string
+	Url          string
+	Pull_Request PullRequest `json: "pull_request"`
+}
+
+type PullRequest struct {
+	Url      string `json: "url"`
+	Html_Url string `json: "html_url"`
+}
