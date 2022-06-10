@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"pkg/data"
-	"pkg/pullRequest"
+	"gitpr/pkg/data"
+	"gitpr/pkg/pullRequest"
 )
 
 func main() {

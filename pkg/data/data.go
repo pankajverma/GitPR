@@ -1,7 +1,7 @@
 package data
 
 import (
-	"code/icus/pkg/pullRequest"
+	"gitpr/pkg/pullRequest"
 	"fmt"
 )
 
