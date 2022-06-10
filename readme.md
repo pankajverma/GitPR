@@ -1,5 +1,5 @@
 # Readme
-## This is a very simple code to fetcth the gitpr based on the status
+## This is a very simple code to fetch the gitpr based on the status
 
 ## how to setup
 - git clone <url>
