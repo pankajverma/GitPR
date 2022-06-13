@@ -3,16 +3,16 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"gitpr/pkg/data"
+	"gitpr/pkg/pullRequest"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"pkg/data"
-	"pkg/pullRequest"
 )
 
 func main() {
 
-	url := "https://api.github.com/search/issues?q=repo%3Abasecamp/local_time+state%3Aopen+type%3Apr+sort%3Acreated+page%3A1"
+	url := "https://api.github.com/search/issues?q=repo%3Abasecamp/local_time+state%3Aopen+state%3Aclosed+type%3Apr+sort%3Acreated+page%3A1"
 	response, err := http.Get(url)
 
 	if err != nil {
